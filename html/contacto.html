@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../css/contacto.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Forum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Contactanos</title>
+</head>
+<body>
+    
+    <section class="container">
+        <div>
+            <img src="../imagenes/logo-blanco.png" alt="Logo" class="logo"> 
+        </div>
+        
+        <div>
+            <header id="header">
+                <h1 class="header__title">CONTACTO</h1>
+                <h1 class="header__subtittle">FORMULARIO E INFORMACIÓN</h1>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="./index.html" class="inicio">Inicio</a></li>
+                        <li class="nav__item"><a href="./nosotros.html" class="nosotros">Nosotros</a></li>
+                        <li class="nav__item"><a href="./servicios.html" class="servicios">Servicios</a></li>
+                        <li class="nav__item"><a href="./proyectos.html" class="proyectos">Proyectos</a></li>
+                        <li class="nav__item"><a href="./contacto.html" class="contactanos"><b>Contactanos</b></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </section>
+
+    <section class="container">
+        <section id="tittles">
+            <h1 class="tittle">FORMULARIO DE CONTACTO</h1>
+            <h2 class="subtittle">¡CONTACTANOS!</h2>
+            <h3  class="text1">¡Trabajemos juntos!</h3>
+        </section>
+
+        <section id="formulario">
+            <form action="form.php" class="contact-form">
+                <label for="Nombre">Nombre y Apellidos</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre">
+                
+                <label for="Email">E-mail</label>
+                <input type="email" name="E-mail" id="Email" placeholder="Ingresa tu correo electrónico">
+                
+                <label for="Telefono">Teléfono</label>
+                <input type="tel" name="Telefono" id="Telefono" placeholder="Ingresa tu número de teléfono">
+                
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" placeholder="Escribenos, queremos ayudarte..." id="Mensaje" cols="30" rows="10"></textarea>
+                
+                <input type="submit" value="Enviar" class="submit-button">
+            </form>
+        </section>
+
+        <section id="informacion">
+            <p><strong>Dirección:</strong> Calle Crucero #299, Purranque</p>
+            <p><strong>Teléfono:</strong> +56 9 9152 0536</p>
+            <p><strong>E-mail:</strong> administracion@cimientoestudio.cl</p>
+        </section>
+
+        <section id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.237818230577!2d-73.17233122396436!3d-40.910531171364426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9617c6b29ac33a35%3A0x5a251e117a76e361!2sC.%20Crucero%20299%2C%205380618%20Purranque%2C%20Osorno%2C%20Los%20Lagos!5e0!3m2!1ses!2scl!4v1693364348242!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+        <footer id="footer">
+            <p>Copyright © 2023 Cimiento Estudio</p>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+

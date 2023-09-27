@@ -1,0 +1,185 @@
+/*-------------------fondos-------------------*/
+body {
+    background-image: 
+        url(../imagenes/nosotros1.png), 
+        url(../imagenes/nosotros2.png), 
+        url(../imagenes/nosotros3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: rgba(85, 64, 55, 0.6);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#nosotros__1, #quienes__somos, #vision {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #554037;
+    min-height: 100vh;
+}
+
+#nosotros__1 {
+    background-image: url(../imagenes/nosotros1.png);
+}
+
+#quienes__somos {
+    background-image: url(../imagenes/nosotros2.png);
+}
+
+#vision {
+    background-image: url(../imagenes/nosotros3.png);
+}
+/*-------------------titulos-------------------*/
+
+#tittle {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo {
+    position: absolute;
+    top: 230px;
+    left: 416.42px;
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.subtitulo {
+    position: absolute;
+    font-size: 24px;
+    color:white;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1.4mm;
+    text-align: center;
+    top: 330px;
+    left: 460px;
+}
+
+.titulo2 {
+    position: absolute;
+    top: 1120px;
+    left: 493.5px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.vision {
+    position: absolute;
+    top: 1900px;
+    left: 516px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/*-------------------textos-------------------*/
+
+.p1 {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 22px;
+    width: 954.8px;
+    height: 290px;
+    text-align: center;
+    position: absolute;
+    top: 1280px;
+    left: 242.7px;
+}
+
+.p2 {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 22px;
+    width: 954.8px;
+    height: 179.7;
+    text-align: center;
+    position: absolute;
+    top: 2050px;
+    left: 242.7px;
+}
+
+/*------------------barra navegación-----------------*/
+
+.nav__item {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.inicio, .nosotros, .proyectos, .contactanos, .servicios {
+    text-decoration: none;
+    color: white;
+    font-size: 21.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio:hover {
+    color: #554037;
+}
+
+.contactanos:hover {
+    color: #554037;
+}
+
+.nosotros:hover {
+    color: #554037;
+}
+
+.proyectos:hover {
+    color: #554037;
+}
+
+.servicios:hover {
+    color: #554037;
+}
+
+/*-------------------- imagenes --------------------*/
+
+.logo {
+    width: 253px;
+    height: 250px;
+    position: absolute;
+    top: 0.3%;
+    left: 82%;
+}
+
+.icono1 {
+    position: absolute;
+    width: 132.9px;
+    height: 120px;
+    top: 1200px;
+    left: 653.5px;
+}
+
+.icono2 {
+    position: absolute;
+    width: 132.9px;
+    height: 120px;
+    top: 1960px;
+    left: 653.5px;
+}
+
+/*-------------------- footer --------------------*/
+
+.footer {
+    position: absolute;
+    font-size: 14px;
+    color:white;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    top: 1265px;
+    background-color: #554037;
+    width: 1440px;
+}

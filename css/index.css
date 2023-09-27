@@ -1,0 +1,111 @@
+body {
+    background-image: url(/imagenes/inicio-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(85, 64, 55, 0.6);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+/*-------------------titulos-------------------*/
+
+#tittle {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo {
+    position: absolute;
+    top: 230px;
+    left: 409px;
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.subtitulo {
+    position: absolute;
+    font-size: 28.5px;
+    color:white;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1.4mm;
+    text-align: center;
+    top: 330px;
+    left: 470px;
+}
+
+/*------------------barra navegación-----------------*/
+
+.nav__item {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.inicio, .nosotros, .proyectos, .contactanos, .servicios {
+    text-decoration: none;
+    color: white;
+    font-size: 21.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio:hover {
+    color: #554037;
+}
+
+.contactanos:hover {
+    color: #554037;
+}
+
+.nosotros:hover {
+    color: #554037;
+}
+
+.proyectos:hover {
+    color: #554037;
+}
+
+.servicios:hover {
+    color: #554037;
+}
+
+
+/*-------------------- imagenes --------------------*/
+
+#logo {
+    width: 253px;
+    height: 250px;
+    position: absolute;
+    top: 0.3%;
+    left: 82%;
+}
+
+
+/*border
+tamaño-estilo-color
+*/
+
+
+/*padding
+  
+padding: 10px 15px 20px 25px; (Arriba, Derecha, Abajo, Izquierda)
+*/
+
+
+
+/*para clase anteponer .
+para id #
+para etiqueta solo escribir nombre de etiqueda, ej: p
+*/
+
+/*FUENTES NUEVAS
+@font-face {
+    font-family: 'coolvetica'; 
+    src: url(../proyecto-coder/fuentes/coolvetica/coolvetica-condensed-rg.otf); */
